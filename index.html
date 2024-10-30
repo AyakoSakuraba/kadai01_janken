@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>雪国マウントじゃんけん</title>
+</head>
+
+<body>
+    <div class="god">
+    <img src="./img/god.jpg"></div>
+    <h1>雪国マウントじゃんけん</h1>
+    <table>
+        <tr>
+            <td><img src="./img/img1.jpg" width="400" height="267" onclick="janken(0)"></td>
+            <td><img src="./img/img2.jpg" width="400" height="267" onclick="janken(1)"></td>
+            <td><img src="./img/img3.jpg" width="400" height="267" onclick="janken(2)"></td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <th id="kita">北海道の冬</th>
+            <th id="minami">東京&福岡の冬</th>
+        </tr>
+        <tr>
+            <td><img src="" id="userImg"></td>
+            <td><img src="" id="pcImg"></td>
+        </tr>
+        <tr>
+            <td colspan="2" id="res">
+                <p id="result"></p>
+            </td>
+        </tr>
+    </table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
